@@ -1,0 +1,132 @@
+_; 1; Anatomie
+_; 1; Paysage
+_; 2; #Character Design
+_; 1; Photo
+_; 1; Illustration
+Anatomie; 1; @#Humain
+Anatomie; @#Anatomie Animale
+#Anatomie Animale; 1@Animal
+#Anatomie Animale; 2@Pose
+#Humain; 1@Genre
+#Humain; 2@Focus Humain
+Focus Humain; @Pose
+Focus Humain; @Partie du corps homme
+Partie du corps homme; Bras
+Partie du corps homme; Jambes
+Partie du corps homme; Pieds
+Partie du corps homme; Mains
+Partie du corps homme; Nuque
+Partie du corps homme; Nez
+Partie du corps homme; Yeux
+Pose; Assis
+Pose; Debout
+Pose; À quatre pâtes
+Pose; Sur le dos
+Pose; Pensif
+Coupe de cheveux; Queue de cheval
+Coupe de cheveux; Bob
+Coupe de cheveux; Carré
+Coupe de cheveux; Chignon
+Coupe de cheveux; Dégradé
+Coupe de cheveux; Frange
+Paysage; 1; @Nature
+Paysage; 1; @Urbain
+#Character Design; 1; 1@Genre
+#Character Design; 1; 2@Couleur
+Photo; 1; Portrait
+Photo; 1; Paysage
+Photo; 1; Animal
+Illustration; 1; @Portrait
+Illustration; 1; Paysage
+Illustration; 1; @Genre
+Illustration; 1; @Couleur
+Illustration; 1; Objet
+Illustration; 1; Maison
+Couleur; 1; Bleu
+Couleur; 1; Rouge
+Couleur; 1; Orange
+Couleur; 1; Pourpre
+Couleur; 1; Turquoize
+Couleur; 1; Noir et Blanc
+Couleur; 1; Jaune
+Couleur; 1; Vert
+Couleur; 1; Marron
+Genre; 1; Homme
+Genre; 1; Femme
+Urbain; @Bâtiment
+Urbain; Parc
+Urbain; @Véhicule
+Véhicule; Voiture
+Véhicule; Camion
+Véhicule; Scooter
+Véhicule; Moto
+Bâtiment; Maison
+Bâtiment; Immeuble
+Bâtiment; Monument
+Bâtiment; Pont
+Bâtiment; Bar
+Bâtiment; Restaurant
+Portrait; 1; Genre
+Portrait; 1; @Animal
+Nature; @Plantes
+Nature; @Animal
+Animal; @Animal Marin
+Animal; @Oiseau
+Animal; @Canidé
+Animal; @Ursidé
+Animal; @Félin
+Animal; @Serpent
+Animal; @Animal Mythologique
+Animal Marin; Poisson
+Animal Marin; Baleine
+Animal Marin; Dophin
+Animal Marin; Requin
+Oiseau; Moineau
+Oiseau; Aigle
+Oiseau; Vautour
+Oiseau; Toucan
+Oiseau; Corbeau
+Oiseau; Corneille
+Oiseau; Perdrix
+Oiseau; Mesange
+Oiseau; Pinguin
+Oiseau; Autruche
+Oiseau; Pie
+Oiseau; Poule
+Oiseau; Coq
+Oiseau; Hiboux
+Oiseau; Chouette
+Oiseau; Pigeon
+Oiseau; Peroquet
+Oiseau; Peruche
+Serpent; Boa
+Serpent; Vipère
+Animal Mythologique; Phenix
+Animal Mythologique; Leviathan
+Animal Mythologique; Dragon
+Animal Mythologique; Licorne
+Canidé; @Loup
+Loup; Loup Blanc
+Loup; Loup Gris
+Canidé; Husky
+Canidé; Renard
+Canidé; Corgy
+Canidé; Golden Retriever
+Ursidé; Ours Brun
+Ursidé; Grizzly
+Ursidé; Ours Blanc
+Félin; Tigre
+Félin; Lion
+Félin; Lynx
+Félin; Cougar
+Félin; Chat
+Félin; Panthère
+Plantes; Plante Grasse
+Plantes; Grimpante
+Plantes; 
+Plantes; @Arbre
+Arbre; Pin
+Arbre; Saule
+Arbre; Chêne
+Arbre; Bouleau
+Arbre; Cerisier
