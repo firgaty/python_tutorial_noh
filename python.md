@@ -249,7 +249,7 @@ Encore un _conteneur_. Mais cette fois ci, au lieu d'accéder aux éléments de 
 
 ```py
 d = {}  # Dictionnaire vide
-d = {"A": 1, "B", 2}
+d = {"A": 1, "B": 2}
 
 type(d)
 # <class 'dict'>
@@ -258,7 +258,7 @@ type(d)
 Voici les opérations associées:
 
 ```py
-d = {"A": 1, "B", 2}
+d = {"A": 1, "B": 2}
 
 d["A"] # Accès à la valeur associée à 'A'
 # 1
